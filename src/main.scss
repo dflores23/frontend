@@ -2,4 +2,60 @@ $title: rgba(121, 112, 95, 0.671);
 
 body {
     background-color: $title;
+    
+  
+}
+header {
+    background-color: rgba(109, 99, 99, 0.404);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    size: 10px;
+}
+.button {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 10%;
+    position: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.foto1 {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+    height: 50%;
+    position: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.foto {
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    position: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }

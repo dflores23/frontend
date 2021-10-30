@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Footer from "../components/Footer";
+
 
 function About(props) {
   // create state to hold about data
@@ -22,7 +22,7 @@ function About(props) {
   const loaded = () => (
     <div>
       <h2>{about.name}</h2>
-      <img src={about.headshot} alt=""/>
+      <img className="foto1" src={about.headshot} alt=""/>
       <h3>{about.email}</h3>
       <p>{about.bio}</p>
     </div>
